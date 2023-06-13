@@ -1,0 +1,14 @@
+.card {
+    overflow: hidden;
+    cursor: pointer;
+  
+    img {
+      transition: transform $transition-duration;
+    }
+  
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }

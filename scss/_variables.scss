@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap';
+
+
+$primary-color: rgb(255, 0, 0);
+$secondary-color:  rgb(16, 15, 100);
+$tertiary-color: brown;
+$quaternary-color: white;
+$text-color: rgba(0,0,0,0.9);
+
+$poppins-font: 'Poppins', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$font-size: 16px;
+$font-weight: bold;
+
+$background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://elitecars-html.asdesignsgalaxy.com/assets/images/Home/Home-2.png);
+
+$transition-duration: 0.5s;
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  .feature,h2,h3,p,button,label{
+    animation: fade-in 0.5s ease-in-out forwards;
+  }

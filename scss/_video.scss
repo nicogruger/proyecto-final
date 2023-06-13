@@ -1,0 +1,23 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 41.7%; // Proporción 1280:533 para videos
+    overflow: hidden;
+  }
+  
+  .video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .video-loop {
+    width: 100%;
+    height: 100%;
+  }

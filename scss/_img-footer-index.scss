@@ -1,0 +1,20 @@
+.luxury-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .luxury-image {
+    max-width: 350px;
+    max-height: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    filter: brightness(50%);
+  }
+  
+  .luxury-image:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    filter: brightness(100%);
+  }
