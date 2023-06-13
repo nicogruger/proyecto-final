@@ -1,0 +1,232 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@900&family=Roboto:wght@300&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Bebas+Neue&family=Raleway:wght@300;900&family=Roboto:wght@300&display=swap';
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*MENU SUPERIOR - REDES SOCIALES*/
+#menu-cabecera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 25px;
+  font-size: 22px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#menu-cabecera a {
+  color: white;
+}
+
+/*CARACTERISTICAS NAVBAR*/
+.navbar {
+  height: 330px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.navbar a {
+  color: white;
+}
+
+/*CARACTERISTICAS HEADER*/
+header {
+  height: 54.8em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://elitecars-html.asdesignsgalaxy.com/assets/images/Home/Home-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*CARACTERISTICAS IMAGENES*/
+.luxury-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.luxury-image {
+  max-width: 350px;
+  max-height: 350px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  filter: brightness(50%);
+}
+
+.luxury-image:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  filter: brightness(100%);
+}
+
+/*CARACTERISTICAS CARRUSEL*/
+#testimonialCarousel .carousel-inner .carousel-item .card.testimonial-card {
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  transition-duration: 0.5s;
+}
+#testimonialCarousel .carousel-inner .carousel-item .card.testimonial-card .quote-icon i {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+}
+#testimonialCarousel .carousel-inner .carousel-item .card.testimonial-card p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#testimonialCarousel .carousel-inner .carousel-item .card.testimonial-card .small {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.9);
+  font-style: italic;
+}
+#testimonialCarousel .carousel-inner .carousel-item.active .card.testimonial-card {
+  background-color: white;
+  border: 1.5px solid rgba(0, 0, 0, 0.9);
+}
+#testimonialCarousel .carousel-control-prev,
+#testimonialCarousel .carousel-control-next {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+}
+
+/*CARACTERISTICAS SERVICIOS*/
+#servicios .feature {
+  margin: 0 auto;
+}
+
+#servicios .feature img {
+  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+#servicios h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#servicios p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  text-align: center;
+}
+
+/*NAVBAR DEL RESTO DE LAS PAGINAS*/
+#fondo-paginas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.wallpaperscraft.com/image/single/bmw_i8_bmw_car_315923_1920x1080.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+a:hover {
+  color: brown !important;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif !important;
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+#slogan {
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  color: white !important;
+}
+
+/*CARACTERISTICAS IMAGENES DE VEHICULOS*/
+.card {
+  overflow: hidden;
+  cursor: pointer;
+}
+.card img {
+  transition: transform 0.5s;
+}
+.card:hover img {
+  transform: scale(1.1);
+}
+
+/*EFECTO APARICION*/
+.feature, h2, h3, p, button, label {
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+/*CARACTERISTICAS BOTONES*/
+button {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif !important;
+  background-color: rgb(255, 0, 0);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(16, 15, 100);
+  border: 1px rgb(16, 15, 100);
+  transition: background-color 0.4s ease;
+}
+
+/*PROMOCIONES*/
+#map-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#map-container iframe {
+  margin: 50px;
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+#map-container img:hover {
+  transform: scale(1.1);
+}
+
+/*VIDEO URUS*/
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 41.7%;
+  overflow: hidden;
+}
+
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-loop {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
